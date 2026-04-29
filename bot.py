@@ -3,7 +3,6 @@ from discord.ext import commands
 import random
 import os
 
-TOKEN = os.getenv("MTQ5OTE1ODcyMDUxOTczNzUzNw.G9_SFm.nlbo4lVJPkX9Y9W2MVGuNevtX1C1fnBNjcgeEs")
 
 intents = discord.Intents.default()
 bot = commands.Bot(command_prefix="!", intents=intents)
